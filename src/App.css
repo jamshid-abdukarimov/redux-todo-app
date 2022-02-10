@@ -1,0 +1,111 @@
+.card-header {
+  background-color: #af7eeb;
+  color: #fff;
+}
+
+.save-btn {
+  background-color: #af7eeb;
+  color: #fff;
+  border: 2px solid #af7eeb;
+}
+.save-btn:active,
+.save-btn:focus {
+  box-shadow: none;
+}
+.save-btn:hover {
+  background-color: transparent;
+  color: #af7eeb;
+}
+
+.form-check-input:checked {
+  border-color: #af7eeb;
+  background-color: #af7eeb;
+}
+
+.form-check-input:hover,
+.form-check-input:checked,
+.form-check-input:focus {
+  box-shadow: none;
+  border-color: #af7eeb;
+}
+
+.addButton {
+  font-size: 38px;
+  color: #007bff;
+  transition: 0.3s ease;
+}
+
+.addButton:hover {
+  color: #0a53a1;
+  cursor: pointer;
+}
+
+.change-btn:hover {
+  color: #fff;
+}
+
+button,
+input {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.modal-wrapper {
+  position: fixed;
+  top: -100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0);
+  z-index: 1000000;
+  display: flex;
+  justify-content: center;
+  transition: all 0.4s ease;
+}
+
+.todo-modal {
+  width: 400px;
+  height: 170px;
+  box-shadow: 5px 5px 30px 5px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+}
+
+.ok-btn {
+  padding: 5px 25px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.ok-btn:hover {
+  background-color: #007bffe0;
+}
+
+.no-btn {
+  padding: 5px 25px;
+  background-color: #fff;
+  color: #007bff;
+  border: 1px solid #ccc;
+  margin-left: 10px;
+  outline: none;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.no-btn:hover {
+  background-color: rgba(204, 204, 204, 0.089);
+}
+
+@media (max-width: 500px) {
+  .todo-modal {
+    width: 95%;
+  }
+}
